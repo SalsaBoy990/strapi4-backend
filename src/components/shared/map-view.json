@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_map_views",
+  "info": {
+    "displayName": "Map view",
+    "icon": "map-marked",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "string",
+      "required": true,
+      "default": "47.4806365"
+    },
+    "lng": {
+      "type": "string",
+      "required": true,
+      "default": "19.0914925"
+    },
+    "zoom": {
+      "type": "integer",
+      "min": 0,
+      "required": true,
+      "default": 18
+    },
+    "title": {
+      "type": "string"
+    },
+    "scriptsAlreadyLoaded": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

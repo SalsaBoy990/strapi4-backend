@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_image_sliders",
+  "info": {
+    "displayName": "Image slider",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slides": {
+      "displayName": "Slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "star.slide"
+    }
+  }
+}

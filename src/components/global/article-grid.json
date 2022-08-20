@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_global_article_grids",
+  "info": {
+    "displayName": "Articles grid",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articleGridTitle": {
+      "type": "string"
+    }
+  }
+}

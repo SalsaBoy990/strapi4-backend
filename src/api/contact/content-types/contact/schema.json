@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mapViews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.map-view",
+      "max": 2,
+      "pluginOptions": {},
+      "required": true
+    },
+    "isOneMap": {
+      "type": "boolean",
+      "default": false,
+      "pluginOptions": {},
+      "required": true
+    }
+  }
+}

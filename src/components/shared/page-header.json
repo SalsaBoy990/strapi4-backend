@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_page_headers",
+  "info": {
+    "displayName": "Page header",
+    "icon": "bolt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pageHeroTitle": {
+      "type": "string",
+      "required": false
+    },
+    "pageHeroDescription": {
+      "type": "richtext"
+    },
+    "pageHeroCoverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

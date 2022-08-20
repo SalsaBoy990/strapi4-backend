@@ -1,0 +1,748 @@
+{
+  "global": {
+    "siteName": "Strapi Starcity Demo",
+    "defaultSeo": {
+      "metaTitle": "Page",
+      "metaDescription": "An experimental demo site made with Strapi",
+      "shareImage": null
+    },
+    "siteDescription": "An experimental demo site made with Strapi",
+    "favicon": null,
+    "video": {
+      "videoTitle": "This is a test video",
+      "videoSource": "starcity/example.mp4",
+      "videoElementId": "intro-video-1"
+    }
+  },
+  "page": {
+    "pageTitle": "About page",
+    "pageDescription": "About the strapi website",
+    "slug": "about-us",
+    "coverImage": null,
+    "blocks": [
+      {
+        "__component": "shared.quote",
+        "quoteTitle": "Thelonius Monk",
+        "quoteBody": "You've got to dig it to dig it, you dig?"
+      },
+      {
+        "__component": "shared.rich-text",
+        "body": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec."
+      },
+      {
+        "__component": "shared.media",
+        "file": "coffee-art.jpg"
+      }
+    ]
+  },
+  "boxGroups": [
+    {
+      "title": "Highlights",
+      "description": "",
+      "background": null,
+      "slug": "highlights"
+    },
+    {
+      "title": "Settlement solutions",
+      "description": "# Auxerat Curibusque armenta lentos vulnus\n\n## Lumina redeuntem\n\nLorem markdownum deorum. Metu dignabitur reticere alimentaque neque tantum procul montes loquenti, nisi, hos mirantur fraxinus placeat.\n\n- Nec furtim copia rugis Andros\n- Vidi aesculeae\n- **Comitem habet neque inpavidus** cui signa tibi",
+      "background": null,
+      "slug": "settlement-solutions"
+    },
+    {
+      "title": "Product development",
+      "description": "- Nec furtim copia rugis Andros\n- Vidi aesculeae\n- Comitem habet neque inpavidus cui signa tibi",
+      "background": null,
+      "slug": "product-development"
+    },
+    {
+      "title": "Business development",
+      "description": "# Auxerat Curibusque armenta lentos vulnus\n\n## Lumina redeuntem\n\nLorem markdownum deorum. Metu dignabitur reticere alimentaque neque tantum procul montes loquenti, nisi, hos mirantur fraxinus placeat.\n\n- Nec furtim copia rugis Andros\n- Vidi aesculeae\n- Comitem habet neque inpavidus cui signa tibi",
+      "background": "starcity/business-development.png",
+      "slug": "business-development"
+    },
+    {
+      "title": "References",
+      "description": "# Auxerat Curibusque armenta lentos vulnus\n\n## Lumina redeuntem\n\nLorem markdownum deorum. Metu dignabitur reticere alimentaque neque tantum procul montes loquenti, nisi, hos mirantur fraxinus placeat.\n\n- Nec furtim copia rugis Andros\n- Vidi aesculeae\n- Comitem habet neque inpavidus cui signa tibi",
+      "background": null,
+      "slug": "references"
+    }
+  ],
+  "boxes": [
+    {
+      "title": "Star City",
+      "background": "starcity/star-city.png",
+      "logo": null,
+      "slug": "star-city",
+      "boxGroup": {
+        "id": 2
+      }
+    },
+    {
+      "title": "Energy economics",
+      "background": "starcity/energyeconomics.png",
+      "logo": null,
+      "slug": "energy",
+      "boxGroup": {
+        "id": 2
+      }
+    },
+    {
+      "title": "City planning",
+      "background": "starcity/city-development.png",
+      "logo": null,
+      "slug": "star-city-3",
+      "boxGroup": {
+        "id": 2
+      }
+    },
+    {
+      "title": "Embedded solutions",
+      "background": "starcity/embedded-solutions.png",
+      "logo": null,
+      "slug": "qubes-2",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "X-Man Projects",
+      "background": "starcity/qubes.jpg",
+      "logo": null,
+      "slug": "qubes-3",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "City Lights",
+      "background": "starcity/chainbridge-2.png",
+      "logo": null,
+      "slug": "data-light",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "UTC Watch",
+      "background": "starcity/utc-watch.jpg",
+      "logo": null,
+      "slug": "utc-watch",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "UTC Sense",
+      "background": "starcity/utc-sense.jpg",
+      "logo": null,
+      "slug": "utc-sense",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "Redbox",
+      "background": "starcity/redbox.jpg",
+      "logo": null,
+      "slug": "redbox",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "Dsmart survey application",
+      "background": "starcity/dsmart.jpg",
+      "logo": null,
+      "slug": "dsmart",
+      "boxGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "For profit sector",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 4
+      }
+    },
+    {
+      "title": "Local government",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 4
+      }
+    },
+    {
+      "title": "Large business sector",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 4
+      }
+    },
+    {
+      "title": "Energetics investments",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 5
+      }
+    },
+    {
+      "title": "Star City investments",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 5
+      }
+    },
+    {
+      "title": "IT investments, software solutions",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 5
+      }
+    },
+    {
+      "title": "For profit sector",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 5
+      }
+    },
+    {
+      "title": "Local government",
+      "background": null,
+      "logo": null,
+      "slug": null,
+      "boxGroup": {
+        "id": 5
+      }
+    }
+  ],
+  "referenceSlides": {
+    "imageBlocks": [
+      {
+        "heading": "STAR CITY LIGHTS MASTERPLAN",
+        "linkTo": null,
+        "hasOverlay": true,
+        "hasBackArrow": false,
+        "textColor": null,
+        "boxHeight": null,
+        "background": "starcity/home/chainbridge.png",
+        "logo": "starcity/logo/logo1.png"
+      },
+      {
+        "heading": "REDBOX TRAIL MONITORING SYSTEM DEVELOPMENT",
+        "linkTo": null,
+        "hasOverlay": true,
+        "hasBackArrow": false,
+        "textColor": null,
+        "boxHeight": null,
+        "background": "starcity/home/cover2.png",
+        "logo": "starcity/logo/robot.png"
+      },
+      {
+        "heading": "INTELLIGENT TRAFFIC CONTROLLING SYSTEM",
+        "linkTo": null,
+        "hasOverlay": true,
+        "hasBackArrow": false,
+        "textColor": null,
+        "boxHeight": null,
+        "background": "starcity/home/cover3.png",
+        "logo": null
+      },
+      {
+        "heading": "STAR CITY SYSTEM PLAN",
+        "linkTo": null,
+        "hasOverlay": true,
+        "hasBackArrow": false,
+        "textColor": null,
+        "boxHeight": null,
+        "background": "starcity/home/cover4.png",
+        "logo": "starcity/logo/logo3.png"
+      }
+    ],
+    "titleBar": {
+      "titleBarTitle": "Highlighted works"
+    }
+  },
+  "projectGroups": [
+    {
+      "title": "Qubes",
+      "description": "",
+      "background": null,
+      "slug": "qubes"
+    },
+    {
+      "title": "Data Light",
+      "description": "",
+      "background": null,
+      "slug": "datalight"
+    },
+    {
+      "title": "UTC Watch",
+      "description": "",
+      "background": null,
+      "slug": "utc-watch"
+    },
+    {
+      "title": "UTC Sense",
+      "description": "",
+      "background": null,
+      "slug": "utc-sense"
+    },
+    {
+      "title": "Redbox",
+      "description": "",
+      "background": null,
+      "slug": "redbox"
+    },
+    {
+      "title": "Energy",
+      "description": "",
+      "background": null,
+      "slug": "energy"
+    },
+    {
+      "title": "Star City",
+      "description": "",
+      "background": null,
+      "slug": "star-city"
+    }
+  ],
+  "projects": [
+    {
+      "title": "PROJECTS",
+      "description": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+      "topLeftImage": "starcity/qubes/qubes1.jpg",
+      "topRightImage": "starcity/qubes/qubes2.jpg",
+      "logo": null,
+      "navTitle": "PRODUCT DEVELOPMENT",
+      "sideTopImage": "starcity/qubes/qubes3.png",
+      "sideBottomImage": "starcity/qubes/qubes4.jpg",
+      "seoDescription": "Urban city solutions",
+      "projectGroup": {
+        "id": 1
+      }
+    },
+    {
+      "title": "Datalight",
+      "description": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+      "topLeftImage": "starcity/datalight/datalight1.jpg",
+      "topRightImage": "starcity/datalight/datalight2.jpg",
+      "logo": null,
+      "navTitle": "PRODUCT DEVELOPMENT",
+      "sideTopImage": "starcity/datalight/datalight3.jpg",
+      "sideBottomImage": "starcity/datalight/datalight4.jpg",
+      "seoDescription": "Urban city solutions",
+      "projectGroup": {
+        "id": 2
+      }
+    },
+    {
+      "title": "UTC Watch",
+      "description": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+      "topLeftImage": "starcity/datalight/datalight1.jpg",
+      "topRightImage": "starcity/datalight/datalight2.jpg",
+      "logo": null,
+      "navTitle": "PRODUCT DEVELOPMENT",
+      "sideTopImage": "starcity/datalight/datalight3.jpg",
+      "sideBottomImage": "starcity/datalight/datalight4.jpg",
+      "seoDescription": "Urban city solutions",
+      "projectGroup": {
+        "id": 3
+      }
+    },
+    {
+      "title": "UTC Sense",
+      "description": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+      "topLeftImage": "starcity/datalight/datalight1.jpg",
+      "topRightImage": "starcity/datalight/datalight2.jpg",
+      "logo": null,
+      "navTitle": "PRODUCT DEVELOPMENT",
+      "sideTopImage": "starcity/datalight/datalight3.jpg",
+      "sideBottomImage": "starcity/datalight/datalight4.jpg",
+      "seoDescription": "Urban city solutions",
+      "projectGroup": {
+        "id": 4
+      }
+    },
+    {
+      "title": "Redbox",
+      "description": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+      "topLeftImage": "starcity/redbox/redbox1.jpg",
+      "topRightImage": "starcity/redbox/redbox2.jpg",
+      "logo": null,
+      "navTitle": "PRODUCT DEVELOPMENT",
+      "sideTopImage": "starcity/redbox/redbox3.jpg",
+      "sideBottomImage": "starcity/redbox/redbox4.png",
+      "seoDescription": "Urban city solutions",
+      "projectGroup": {
+        "id": 5
+      }
+    },
+    {
+      "title": "ENERGETICS PROJEKT",
+      "description": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+      "topLeftImage": "starcity/energy/energy1.png",
+      "topRightImage": "starcity/energy/energy2.jpg",
+      "logo": null,
+      "navTitle": "PRODUCT DEVELOPMENT",
+      "sideTopImage": "starcity/energy/energy3.png",
+      "sideBottomImage": "starcity/energy/energy4.jpg",
+      "seoDescription": "Urban city solutions",
+      "projectGroup": {
+        "id": 6
+      }
+    },
+    {
+      "title": "FOLLOW ME MUSEUM GUIDE SYSTEM",
+      "description": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+      "topLeftImage": "starcity/energy/energy5.png",
+      "topRightImage": "starcity/energy/energy6.jpg",
+      "logo": null,
+      "navTitle": "PRODUCT DEVELOPMENT",
+      "sideTopImage": "starcity/energy/energy7.png",
+      "sideBottomImage": "starcity/energy/energy8.png",
+      "seoDescription": "Urban city solutions",
+      "projectGroup": {
+        "id": 6
+      }
+    },
+    {
+      "title": "B-SMART PROJECT",
+      "description": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+      "topLeftImage": "starcity/star-city/star-city1.png",
+      "topRightImage": "starcity/star-city/star-city2.png",
+      "logo": null,
+      "navTitle": "PRODUCT DEVELOPMENT",
+      "sideTopImage": "starcity/star-city/star-city3.png",
+      "sideBottomImage": "starcity/star-city/star-city4.png",
+      "seoDescription": "Urban city solutions",
+      "projectGroup": {
+        "id": 7
+      }
+    },
+    {
+      "title": "MONOR CITY SMART CITY ACTION PLAN",
+      "description": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+      "topLeftImage": "starcity/star-city/star-city5.png",
+      "topRightImage": "starcity/star-city/star-city6.png",
+      "logo": null,
+      "navTitle": "PRODUCT DEVELOPMENT",
+      "sideTopImage": "starcity/star-city/star-city7.jpg",
+      "sideBottomImage": "starcity/star-city/star-city8.png",
+      "seoDescription": "Urban city solutions",
+      "projectGroup": {
+        "id": 7
+      }
+    }
+  ],
+  "contact": {
+    "mapViews": [
+      {
+        "lat": "47.00",
+        "lng": "19.00",
+        "zoom": 18,
+        "scriptsAlreadyLoaded": false,
+        "title": "Office",
+        "address": "Address comes here"
+      },
+      {
+        "lat": "47.20",
+        "lng": "18.60",
+        "zoom": 18,
+        "scriptsAlreadyLoaded": true,
+        "title": "Depot",
+        "address": "Address comes here"
+      }
+    ],
+    "isOneMap": false
+  },
+  "footer": {
+    "title": "STARCITY GROUP Ltd",
+    "description": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+    "logo": "starcity/footer/starcity-brand-dark-bg.png"
+  },
+  "navigation": {
+    "navigationItems": [
+      { "title": "City solutions", "slug": "#city-solutions" },
+      { "title": "Product development", "slug": "#product-development" },
+      { "title": "Business development", "slug": "#business-development" },
+      { "title": "Research", "slug": "research" },
+      { "title": "References", "slug": "#reference-works" },
+      { "title": "About", "slug": "#contact" },
+      { "title": "Contact", "slug": "#contact" }
+    ],
+    "logo": "starcity/starcity-brand.png"
+  },
+  "partner": {
+    "slides": [
+      {
+        "image": "starcity/logo/BCS_logo_B.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "BCS"
+      },
+      {
+        "image": "starcity/logo/ab_logo.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "AB"
+      },
+      {
+        "image": "starcity/logo/Rio_logo.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "Rio"
+      },
+      {
+        "image": "starcity/logo/LOGO.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "Budapest"
+      },
+      {
+        "image": "starcity/logo/UMS_logo_head_100px.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "UMS"
+      },
+      {
+        "image": "starcity/logo/brownfield_logo_15.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "Brown Field"
+      },
+      {
+        "image": "starcity/logo/SURVEY_logo.png",
+        "logo": null,
+        "linkTo": null,
+        "title": "UTC Survey"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "name": "news",
+      "slug": "news"
+    },
+    {
+      "name": "tech",
+      "slug": "tech"
+    },
+    {
+      "name": "food",
+      "slug": "food"
+    },
+    {
+      "name": "nature",
+      "slug": "nature"
+    },
+    {
+      "name": "story",
+      "slug": "story"
+    }
+  ],
+  "authors": [
+    {
+      "name": "David Doe",
+      "email": "daviddoe@strapi.io",
+      "avatar": "daviddoe@strapi.io.jpg"
+    },
+    {
+      "name": "Sarah Baker",
+      "email": "sarahbaker@strapi.io",
+      "avatar": "sarahbaker@strapi.io.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "title": "The internet's Own boy",
+      "slug": "the-internet-s-own-boy",
+      "category": {
+        "id": 5
+      },
+      "author": {
+        "id": 1
+      },
+      "description": "Follow the story of Aaron Swartz, the boy who could change the world",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "This shrimp is awesome",
+      "slug": "this-shrimp-is-awesome",
+      "category": {
+        "id": 4
+      },
+      "author": {
+        "id": 1
+      },
+      "description": "Mantis shrimps, or stomatopods, are marine crustaceans of the order Stomatopoda.",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "A bug is becoming a meme on the internet",
+      "slug": "a-bug-is-becoming-a-meme-on-the-internet",
+      "category": {
+        "id": 2
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "How a bug on MySQL is becoming a meme on the internet",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "Beautiful picture",
+      "slug": "beautiful-picture",
+      "category": {
+        "id": 4
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "Description of a beautiful picture",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "What's inside a Black Hole",
+      "slug": "what-s-inside-a-black-hole",
+      "category": {
+        "id": 1
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "Maybe the answer is in this article, or not...",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    }
+  ]
+}

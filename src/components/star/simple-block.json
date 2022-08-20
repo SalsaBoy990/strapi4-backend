@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_subcomponent_simple_blocks",
+  "info": {
+    "displayName": "Simple block",
+    "icon": "box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": true
+    },
+    "textColor": {
+      "type": "string",
+      "required": true,
+      "default": "white"
+    },
+    "blockSize": {
+      "type": "enumeration",
+      "enum": [
+        "half",
+        "full"
+      ],
+      "required": true,
+      "default": "half"
+    }
+  }
+}

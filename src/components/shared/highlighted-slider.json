@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_highlighted_sliders",
+  "info": {
+    "displayName": "Highlighted slider",
+    "icon": "seedling",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "highlightedImageBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "star.image-block"
+    }
+  }
+}

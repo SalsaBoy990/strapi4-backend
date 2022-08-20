@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_blocks_containers",
+  "info": {
+    "displayName": "Blocks container",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "star.image-block"
+    }
+  }
+}

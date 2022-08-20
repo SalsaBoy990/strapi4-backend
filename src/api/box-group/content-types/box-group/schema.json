@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "box_groups",
+  "info": {
+    "singularName": "box-group",
+    "pluralName": "box-groups",
+    "displayName": "Box group",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {},
+      "type": "richtext"
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {}
+    },
+    "boxes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::box.box",
+      "mappedBy": "boxGroup"
+    },
+    "slug": {
+      "pluginOptions": {},
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

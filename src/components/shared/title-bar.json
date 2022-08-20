@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_title_bars",
+  "info": {
+    "displayName": "TitleBar",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleBarTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

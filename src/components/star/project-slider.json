@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_star_project_sliders",
+  "info": {
+    "displayName": "Project slider",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "star.project"
+    }
+  }
+}
