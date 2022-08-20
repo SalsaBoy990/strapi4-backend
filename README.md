@@ -1,5 +1,14 @@
 # 🚀 Getting started with Strapi
 
+[Tutorial on how to setup Cloudinary for Strapi](https://strapi.io/blog/add-cloudinary-support-to-your-strapi-application)
+
+You cannot store your assets in the uploads folder on Heroku, since your uploads will be lost after Heroku [rebuilds the app](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment/hosting-guides/heroku.html#file-uploads). The filesystem only lasts until the dyno is restarted. In the free tier, this is done more regurarly since Heroku will stop your dyno after 30 mins.
+You only need to have a free account on Cloudinary.
+
+[Deploy Strapi on Heroku](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment/hosting-guides/heroku.html#heroku-postgres)
+You only need to have a free Heroku account. You can also have a Postgres database for free.
+
+
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
 ### `develop`
