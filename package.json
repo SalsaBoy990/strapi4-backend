@@ -3,6 +3,7 @@
     "@strapi/plugin-graphql": "^4.0.5",
     "@strapi/plugin-i18n": "4.3.4",
     "@strapi/plugin-users-permissions": "4.3.4",
+    "@strapi/provider-upload-cloudinary": "^4.3.4",
     "@strapi/strapi": "4.3.4",
     "fs-extra": "^10.0.0",
     "lodash.set": "^4.3.2",
@@ -24,7 +25,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "6637d40c-e75d-40d4-bf29-757cebb76754",
+    "uuid": "93d8db6f-8f21-4fec-a82b-da4f6d98f415",
     "template": "https://github.com/SalsaBoy990/strapi-template-seeder"
   },
   "engines": {
