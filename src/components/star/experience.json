@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_star_experiences",
+  "info": {
+    "displayName": "Experience",
+    "icon": "user-graduate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "experienceTitle": {
+      "type": "string",
+      "required": true
+    },
+    "experienceDescription": {
+      "type": "text"
+    },
+    "experienceItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "star.experience-item"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "star.slide"
+    }
+  }
+}

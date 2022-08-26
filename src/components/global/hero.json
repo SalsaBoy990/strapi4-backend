@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_global_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "desktop"
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string",
+      "required": true,
+      "default": "We’re Building Your Future City"
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Take a step towards the future of construction with Starcity Group Ltd.",
+      "required": true
+    },
+    "heroBackground": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "heroVideo": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "heroButtonText": {
+      "type": "string",
+      "required": true,
+      "default": "Contact"
+    },
+    "heroButtonLink": {
+      "type": "string",
+      "required": true,
+      "default": "/#contact"
+    }
+  }
+}

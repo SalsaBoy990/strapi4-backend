@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_star_services",
+  "info": {
+    "displayName": "Service",
+    "icon": "certificate"
+  },
+  "options": {},
+  "attributes": {
+    "serviceName": {
+      "type": "string",
+      "required": true
+    },
+    "serviceDescription": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "excavator",
+        "concrete-mixer",
+        "helmet",
+        "crane"
+      ],
+      "required": true
+    }
+  }
+}

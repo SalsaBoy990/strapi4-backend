@@ -11,6 +11,14 @@
       "type": "component",
       "repeatable": true,
       "component": "star.image-block"
+    },
+    "highlightsTitle": {
+      "type": "string",
+      "required": true
+    },
+    "highlightsDescription": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -34,7 +34,9 @@
         "shared.highlighted-slider",
         "shared.image-section-container",
         "star.image-slider",
-        "star.simple-section-container"
+        "global.hero",
+        "star.service-slider",
+        "star.experience"
       ]
     }
   }

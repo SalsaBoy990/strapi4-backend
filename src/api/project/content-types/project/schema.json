@@ -17,61 +17,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "pluginOptions": {},
-      "type": "richtext",
-      "required": true
-    },
-    "topLeftImage": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {}
-    },
-    "topRightImage": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {}
-    },
-    "logo": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {}
-    },
-    "navTitle": {
-      "pluginOptions": {},
-      "type": "string",
-      "required": true
-    },
-    "sideTopImage": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {}
-    },
-    "sideBottomImage": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {}
-    },
     "seoDescription": {
       "pluginOptions": {},
       "type": "string"
@@ -81,6 +26,23 @@
       "relation": "manyToOne",
       "target": "api::project-group.project-group",
       "inversedBy": "projects"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.media",
+        "shared.quote",
+        "shared.rich-text",
+        "shared.video"
+      ]
     }
   }
 }

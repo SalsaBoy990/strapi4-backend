@@ -9,6 +9,20 @@
   "attributes": {
     "titleBarTitle": {
       "type": "string",
+      "required": true,
+      "default": "Our Services"
+    },
+    "titleBarImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "titleBarDescription": {
+      "type": "string",
+      "default": "Duis sed odio sit amet nibh vulputate cursus a sit amet mauris morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.",
       "required": true
     }
   }

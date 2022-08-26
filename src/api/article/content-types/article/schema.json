@@ -61,11 +61,14 @@
         "shared.rich-text",
         "shared.video",
         "shared.slider",
-        "star.simple-section-container",
         "shared.image-section-container",
         "shared.highlighted-slider",
         "star.image-slider"
       ]
+    },
+    "publishDate": {
+      "type": "date",
+      "required": true
     }
   }
 }

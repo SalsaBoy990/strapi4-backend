@@ -12,19 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "mapViews": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.map-view",
-      "max": 2,
-      "pluginOptions": {},
-      "required": true
-    },
-    "isOneMap": {
-      "type": "boolean",
-      "default": false,
-      "pluginOptions": {},
-      "required": true
+    "leftImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

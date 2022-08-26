@@ -35,10 +35,21 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "video": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.video"
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "companyName": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -30,6 +30,11 @@
         "images"
       ],
       "pluginOptions": {}
+    },
+    "mapLocation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.map-view"
     }
   }
 }

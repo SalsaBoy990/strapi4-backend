@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_star_service_sliders",
+  "info": {
+    "displayName": "Service slider",
+    "icon": "server",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "star.service"
+    }
+  }
+}

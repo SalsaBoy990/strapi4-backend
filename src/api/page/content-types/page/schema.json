@@ -47,8 +47,7 @@
         "shared.slider",
         "shared.highlighted-slider",
         "shared.image-section-container",
-        "star.image-slider",
-        "star.simple-section-container"
+        "star.image-slider"
       ]
     }
   }
